@@ -7,7 +7,7 @@
       "album": "The Divine Feminine",
       "cover": "assets/covers/m01.avif",
       "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
+      "lyrics": "..."
     },
     {
       "id": "musica-02",
@@ -15,73 +15,44 @@
       "artist": "The Police",
       "album": "Synchronicity",
       "cover": "assets/covers/m02.jpg",
-      "accent": "#3977a0",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
+      "accent": "#d8ae3c",
+      "lyrics": "..."
     },
     {
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
-    },{
-      "id": "musica-01",
-      "title": "Congratulations (feat. Bilal)",
-      "artist": "Mac Miller",
-      "album": "The Divine Feminine",
-      "cover": "assets/covers/m01.avif",
-      "accent": "#d6bebb",
-      "lyrics": "(Where are you?) \nOh-oh, oh-oh \nThe Divine Feminine, an album by Mac Miller \nOh-oh, oh-oh \n(The Divine Feminine) \n(The Divine Feminine) \nAm I supposed to? Okay"
+      "id": "musica-03",
+      "title": "Superpowers ㅤㅤㅤㅤㅤㅤㅤㅤ",
+      "artist": "Daniel Caesar",
+      "album": "Never Enough",
+      "cover": "assets/covers/m03.avif",
+      "accent": "#2339d5",
+      "lyrics": "..."
+    },
+    {
+      "id": "musica-04",
+      "title": "I wanna be yours ㅤㅤㅤㅤㅤㅤㅤㅤ",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "cover": "assets/covers/m04.avif",
+      "accent": "#0b0f10",
+      "lyrics": "..."
+    },
+    {
+      "id": "musica-05",
+      "title": "Partilhar ㅤㅤㅤㅤㅤㅤㅤㅤ",
+      "artist": "Rubel",
+      "album": "Casas",
+      "cover": "assets/covers/m05.avif",
+      "accent": "#fdfcfb",
+      "lyrics": "..."
+    },
+    {
+      "id": "musica-06",
+      "title": "She's thunderstorms ㅤㅤㅤㅤㅤㅤㅤㅤ",
+      "artist": "Arctic Monkeys",
+      "album": "Suck it and see",
+      "cover": "assets/covers/m06.avif",
+      "accent": "#fdf3e3",
+      "lyrics": "..."
     }
   ]
 }
