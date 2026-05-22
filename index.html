@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G + M</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/icone.png" />
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <img src="assets/logo.png" alt="GM logo" />
+      </div>
+      <nav class="main-nav">
+        <a href="#galeria">Galeria de Fotos</a>
+        <a href="#playlist">Nossa Playlist</a>
+        <a href="#cartinha">Cartinha</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <canvas id="starfield" class="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">NOS ESTAMOS JUNTOS A:</p>
+          <div class="counter" id="counter" aria-live="polite">
+            <span data-unit="months">0 meses</span>
+            <span class="sep">/</span>
+            <span data-unit="weeks">0 semanas</span>
+            <span class="sep">/</span>
+            <span data-unit="days">0 dias</span>
+            <span class="sep">/</span>
+            <span data-unit="hours">0 horas</span>
+            <span class="sep">/</span>
+            <span data-unit="minutes">0 minutos</span>
+            <span class="sep">/</span>
+            <span data-unit="seconds">0 segundos</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="galeria" class="section gallery">
+        <div class="section-header" data-reveal>
+          <h2>Galeria de Fotos</h2>
+        </div>
+        <div class="polaroid-grid" data-reveal>
+          <button class="polaroid" type="button" data-date="28/08/2025" aria-pressed="false">
+            <div class="polaroid-inner">
+              <div class="polaroid-front">
+                <img src="assets/photos/foto1.jpeg" alt="Foto 01" />
+              </div>
+              <div class="polaroid-back">
+                <span class="back-label">Data</span>
+                <span class="back-date">28/08/2025</span>
+              </div>
+            </div>
+          </button>
+          <button class="polaroid" type="button" data-date="12/09/2025" aria-pressed="false">
+            <div class="polaroid-inner">
+              <div class="polaroid-front">
+                <img class="photo-shift-up" src="assets/photos/foto2.jpeg" alt="Foto 02" />
+              </div>
+              <div class="polaroid-back">
+                <span class="back-label">Data</span>
+                <span class="back-date">12/09/2025</span>
+              </div>
+            </div>
+          </button>
+          <button class="polaroid" type="button" data-date="03/10/2025" aria-pressed="false">
+            <div class="polaroid-inner">
+              <div class="polaroid-front">
+                <img src="assets/photos/foto3.jpeg" alt="Foto 03" />
+              </div>
+              <div class="polaroid-back">
+                <span class="back-label">Data</span>
+                <span class="back-date">03/10/2025</span>
+              </div>
+            </div>
+          </button>
+          <button class="polaroid" type="button" data-date="18/11/2025" aria-pressed="false">
+            <div class="polaroid-inner">
+              <div class="polaroid-front">
+                <img src="assets/photos/foto4.jpeg" alt="Foto 04" />
+              </div>
+              <div class="polaroid-back">
+                <span class="back-label">Data</span>
+                <span class="back-date">18/11/2025</span>
+              </div>
+            </div>
+          </button>
+          <button class="polaroid" type="button" data-date="07/01/2026" aria-pressed="false">
+            <div class="polaroid-inner">
+              <div class="polaroid-front">
+                <img src="assets/photos/foto5.jpeg" alt="Foto 05" />
+              </div>
+              <div class="polaroid-back">
+                <span class="back-label">Data</span>
+                <span class="back-date">07/01/2026</span>
+              </div>
+            </div>
+          </button>
+          <button class="polaroid" type="button" data-date="14/02/2026" aria-pressed="false">
+            <div class="polaroid-inner">
+              <div class="polaroid-front">
+                <img src="assets/photos/foto6.jpeg" alt="Foto 06" />
+              </div>
+              <div class="polaroid-back">
+                <span class="back-label">Data</span>
+                <span class="back-date">14/02/2026</span>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="photo-modal" aria-hidden="true">
+          <div class="photo-card" role="dialog" aria-modal="true" aria-label="Foto">
+            <button class="photo-close" type="button" aria-label="Fechar foto">X</button>
+            <button class="photo-polaroid" type="button" aria-pressed="false">
+              <div class="polaroid-inner">
+                <div class="polaroid-front">
+                  <img src="" alt="" />
+                </div>
+                <div class="polaroid-back">
+                  <span class="back-label">Data</span>
+                  <span class="back-date"></span>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="playlist" class="section playlist" style="--accent: #b07d4f">
+        <div class="section-header" data-reveal>
+          <h2>Nossa Playlist</h2>
+        </div>
+        <div class="jukebox" data-reveal>
+          <div class="jukebox-window">
+            <div class="jukebox-scroll" data-playlist></div>
+          </div>
+          <div class="track-details">
+            <div class="track-meta">
+              <h3 data-track-title>Titulo</h3>
+              <p data-track-artist>Artista</p>
+            </div>
+            <div class="lyrics" data-lyrics></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cartinha" class="section letter">
+        <canvas id="hearts" class="letter-canvas" aria-hidden="true"></canvas>
+        <div class="section-header" data-reveal>
+          <h2>Cartinha</h2>
+        </div>
+        <div class="envelope-scene" data-reveal>
+          <button class="envelope" type="button" aria-expanded="false">
+            <span class="envelope-text">Clique para abrir</span>
+          </button>
+        </div>
+        <div class="letter-modal" aria-hidden="true">
+          <div class="letter-card" role="dialog" aria-modal="true" aria-label="Cartinha">
+            <button class="letter-close" type="button" aria-label="Fechar carta">X</button>
+            <h3>Minha carta</h3>
+            <p>
+              Meu amor, eu me lembro perfeitamente do dia em que te mandei aquele elogio t&iacute;mido
+              e n&oacute;s come&ccedil;amos a conversar. Atualmente fazem
+              <span class="letter-counter" aria-live="polite">
+                <span data-letter-unit="months">0 meses</span>
+                <span class="sep">/</span>
+                <span data-letter-unit="weeks">0 semanas</span>
+                <span class="sep">/</span>
+                <span data-letter-unit="days">0 dias</span>
+                <span class="sep">/</span>
+                <span data-letter-unit="hours">0 horas</span>
+                <span class="sep">/</span>
+                <span data-letter-unit="minutes">0 minutos</span>
+                <span class="sep">/</span>
+                <span data-letter-unit="seconds">0 segundos</span>
+              </span>
+              desde que a gente come&ccedil;ou a conversar e muita coisa mudou. voc&ecirc; veio sendo uma luz
+              para minha vida, a princesa mais bonita e incr&iacute;vel do mundo. eu n&atilde;o sei mais como
+              viver sem voc&ecirc;, voc&ecirc; definiu para mim v&aacute;rias coisas, como por exemplo "viver".
+              outra coisa que voc&ecirc; definiu para mim foi "amor", porque eu amo tudo em voc&ecirc;, e
+              voc&ecirc; &eacute; o meu amor, porque &eacute; isso que eu sinto. eu tenho certeza que ningu&eacute;m nunca
+              sentiu um amor t&atilde;o profundo, bonito e bom igual o que eu sinto por voc&ecirc;. ent&atilde;o
+              sim, eu amo voc&ecirc;,
+            </p>
+            <ul class="letter-list">
+              <li>eu amo quando voc&ecirc; me olha e d&aacute; aquele sorriso cheio de brilho</li>
+              <li>
+                eu amo quando n&oacute;s estamos deitados e eu fico sentindo o seu cheiro e o macio dos
+                seus cabelos
+              </li>
+              <li>
+                eu amo quando voc&ecirc; vai mandar um &aacute;udio ou quando est&aacute; mexendo no celular e voc&ecirc;
+                faz aquele seu tique de ficar passando a m&atilde;o no seu fio de cabelo
+              </li>
+              <li>
+                eu amo o jeito que seus olhinhos ficam parecidos com um panda, igual voc&ecirc; fala,
+                depois de um dia dif&iacute;cil
+              </li>
+              <li>
+                eu amo te admirar quando eu estou na sua cama e voc&ecirc; senta na frente do espelho e
+                come&ccedil;a a fazer maquiagem e arrumar
+              </li>
+              <li>
+                eu amo o jeito que voc&ecirc; sabe lidar com os outros, principalmente o pessoal a&iacute; da
+                sua casa
+              </li>
+              <li>
+                eu amo que voc&ecirc; n&atilde;o abaixa a cabe&ccedil;a por nada, voc&ecirc; continua olhando pra cima e
+                seguindo firme.
+              </li>
+              <li>eu amo tudo que vem de voc&ecirc;, porque eu amo voc&ecirc;.</li>
+            </ul>
+            <p>
+              voc&ecirc; &eacute; o meu tudo, o meu lar, o meu amorzinho, o meu ponto seguro, minha felicidade,
+              minha bebezinha, meu amor, e a minha mais linda perfeita e maravilhosa namorada.
+            </p>
+            <p class="letter-signature">Com muito amor, matheus.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
